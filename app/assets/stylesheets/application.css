@@ -11,5 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
- *= require_self
+ *= require 'styles'
  */
+@import
+"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"

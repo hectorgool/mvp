@@ -61,3 +61,6 @@ rails g devise:views
 git branch -m <oldname> <newname>
 
 
+<%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
+
+rails g controller Home index
