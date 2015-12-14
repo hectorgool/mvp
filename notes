@@ -64,3 +64,20 @@ git branch -m <oldname> <newname>
 <%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
 
 rails g controller Home index
+
+      create  app/controllers/home_controller.rb
+       route  get 'home/index'
+      invoke  erb
+      create    app/views/home
+      create    app/views/home/index.html.erb
+      invoke  test_unit
+      create    test/controllers/home_controller_test.rb
+      invoke  helper
+      create    app/helpers/home_helper.rb
+      invoke    test_unit
+      invoke  assets
+      invoke    coffee
+      create      app/assets/javascripts/home.coffee
+      invoke    scss
+      create      app/assets/stylesheets/home.scss
+
