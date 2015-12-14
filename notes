@@ -50,3 +50,8 @@ rails g devise user
 bundle exec rake db:migrate
 
 rake routes
+
+The devise generator also adds a line to config/routes.rb:
+devise_for :users
+
+rails g devise:views
