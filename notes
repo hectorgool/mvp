@@ -55,3 +55,9 @@ The devise generator also adds a line to config/routes.rb:
 devise_for :users
 
 rails g devise:views
+
+#rename branch
+#http://stackoverflow.com/questions/6591213/how-do-you-rename-the-local-branch
+git branch -m <oldname> <newname>
+
+
