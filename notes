@@ -81,3 +81,6 @@ rails g controller Home index
       invoke    scss
       create      app/assets/stylesheets/home.scss
 
+
+#Add sign-up and login links
+http://guides.railsgirls.com/devise/
