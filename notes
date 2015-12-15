@@ -84,3 +84,4 @@ rails g controller Home index
 
 #Add sign-up and login links
 http://guides.railsgirls.com/devise/
+
