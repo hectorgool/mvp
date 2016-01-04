@@ -116,3 +116,18 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/hectorgool/mvp.git
 git push -u origin master          
+
+
+Pundit install
+
+
+bundle install
+
+bundle show pundit
+
+rails g pundit:install
+
+class ProjectsController < ApplicationController
+  def index
+  end
+end
