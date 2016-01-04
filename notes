@@ -131,3 +131,13 @@ class ProjectsController < ApplicationController
   def index
   end
 end
+
+
+
+push all branches and tags
+
+git push --all
+git push --tags
+
+http://stackoverflow.com/questions/4885999/with-github-how-do-i-push-all-branches-when-adding-an-existing-repo
+
