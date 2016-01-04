@@ -141,3 +141,15 @@ git push --tags
 
 http://stackoverflow.com/questions/4885999/with-github-how-do-i-push-all-branches-when-adding-an-existing-repo
 
+
+
+Pundit install
+
+
+bundle install
+bundle show rspec
+rails g rspec:install
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
